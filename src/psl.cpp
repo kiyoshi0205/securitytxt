@@ -202,4 +202,4 @@ namespace Url
         levels[copy] = length;
     }
 
-};
+}

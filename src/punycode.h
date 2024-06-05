@@ -28,6 +28,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
+#include <limits>
 
 #include "utf8.h"
 
@@ -120,7 +121,7 @@ namespace Url
         punycode_uint adapt(
             punycode_uint delta, punycode_uint numpoints, bool firsttime);
 
-    };
+    }
 
 }
 

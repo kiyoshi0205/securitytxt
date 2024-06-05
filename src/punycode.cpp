@@ -428,4 +428,4 @@ namespace Url
         return k + (((BASE - TMIN + 1) * delta) / (delta + SKEW));
     }
 
-};
+}

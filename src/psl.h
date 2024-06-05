@@ -47,7 +47,7 @@ namespace Url
          */
         PSL(std::istream& stream);
 
-        PSL(): levels() { };
+        PSL(): levels() { }
 
         PSL(const PSL& other): levels(other.levels) { }
 
